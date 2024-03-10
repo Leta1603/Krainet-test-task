@@ -14,13 +14,15 @@
 
 ## 3. Секция "Свяжитесь со мной".
 
+Запрос, для отправки данных из формы на сервер осуществляется в случае, если все данные в форме валидны. в console.log выводится результат отправки.
+
 ### Preview
 
 ![Image](https://github.com/Leta1603/Krainet-test-task/blob/master/public/contacts.png)
 
 ![Image](https://github.com/Leta1603/Krainet-test-task/blob/master/public/contacts-with-error.png)
 
-## Задание с числами Фибоначчи (написано в самом конце script.js):
+## Задание с числами Фибоначчи (написано в файле nthFibo.js):
 
 ```
 function nthFibo(n) {
