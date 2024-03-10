@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+@import "./cdn.scss";
+@import "./_variables.scss";
+@import "./_mixins.scss";
+@import "./header.scss";
+@import "./sectionTitle.scss";
+@import "./promo.scss";
+@import "./socialMedia.scss";
+@import "./benefits.scss";
+@import "./contacts.scss";
+
+html {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+body._lock {
+  overflow: hidden;
+  padding-right: 17px;
+
+  @media (max-width: 1024px) {
+    padding: 0;
+  }
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+
+  @media (max-width: 1200px) {
+    max-width: 970px;
+  }
+
+  @media (max-width: 991.98px) {
+    max-width: 750px;
+  }
+
+  @media (max-width: 761.98px) {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+}
+
+.main__container {
+  margin: 0 auto 1px;
+  border: solid #000;
+  border-width: 0 1px 1px 1px;
+  @media (max-width: 761.98px) {
+    border-width: 0;
+  }
+}
+
+.overlapping {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255 255 255 / 0.75);
+  top: 0;
+  left: 0;
+  z-index: 5;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.4s;
+
+  &_active {
+    opacity: 1;
+    visibility: visible;
+  }
+}

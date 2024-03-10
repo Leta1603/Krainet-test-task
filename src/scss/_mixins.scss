@@ -1,0 +1,58 @@
+@mixin yellowCircle() {
+  content: "";
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: $yellowColor;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+  display: block;
+  z-index: -1;
+}
+
+@mixin titleOfSection() {
+  font-weight: bold;
+  font-size: 36px;
+}
+
+@mixin yellowLine() {
+  display: block;
+  margin: 0 auto;
+  width: 60px;
+  border: 2px solid $yellowColor;
+}
+
+@mixin yellowLink() {
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  padding: 12px 26px;
+  background-color: $yellowColor;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+@mixin sectionTitle() {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 60px;
+  margin-bottom: 25px;
+}
+
+@mixin sectionSubtitle() {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+@mixin activeAndFocusBtn() {
+  transition: 0.3s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  &:active {
+    transform: scale(0.9);
+  }
+}
