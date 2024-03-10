@@ -1,18 +1,18 @@
 # Тестовое задание React
 
-> 1. Секция "Я web-разработчик" (включая бургер меню).
+## 1. Секция "Я web-разработчик" (включая бургер меню).
 
 ### Preview
 
 ![Image](https://github.com/Leta1603/Krainet-test-task/blob/master/public/promo.png)
 
-> 2. Секция "Чем я буду полезна".
+## 2. Секция "Чем я буду полезна".
 
 ### Preview
 
 ![Image](https://github.com/Leta1603/Krainet-test-task/blob/master/public/benefits.png)
 
-> 3. Секция "Свяжитесь со мной".
+## 3. Секция "Свяжитесь со мной".
 
 ### Preview
 
